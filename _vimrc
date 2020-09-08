@@ -37,9 +37,7 @@ filetype plugin on
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-
 " General settings {{
-colorscheme Tomorrow-Night
 set number
 set relativenumber
 syntax on
@@ -55,6 +53,11 @@ set nobackup nowritebackup
 set viminfo="NONE"
 set visualbell
 set wildmenu
+" }}
+
+" Scheme {{
+" Download and put your scheme in C:\Users\username\vimfiles\colors\SchemeName.vim
+" colorscheme SchemeName
 " }}
 
 " Status bar settings {{
