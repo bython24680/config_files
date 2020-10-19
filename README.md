@@ -9,6 +9,8 @@ Environment: windows 10
 
 ## For Linux
 
+Put in `~/`
+
 - `.tmux.conf`
-    - Put this in `~/`
+- `.vimrc`
 
