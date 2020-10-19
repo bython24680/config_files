@@ -18,6 +18,7 @@ Plugin 'tmhedberg/matchit'
 Plugin 'scrooloose/syntastic'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'mattn/emmet-vim'
+Plugin 'dense-analysis/ale'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
@@ -46,6 +47,12 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" ale {{
+let g:ale_linters = {
+\   'javascript': ['eslint']
+\}
+" }}
 
 " General {{
 set number
